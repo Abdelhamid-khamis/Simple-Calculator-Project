@@ -1,0 +1,108 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #ffafbd, #ffc3a0);
+    color: #333;
+}
+
+.calculator {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    color: #333;
+}
+
+.display {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button {
+    margin: 10px;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    transition: background-color 0.3s ease, transform 0.2s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    transform: translateY(-2px);
+}
+
+#increment-btn {
+    background: #4CAF50;
+}
+
+#increment-btn:hover {
+    background: #45a049;
+}
+
+#subtract-btn {
+    background: #FF5722;
+}
+
+#subtract-btn:hover {
+    background: #e64a19;
+}
+
+#divide-btn {
+    background: #2196F3;
+}
+
+#divide-btn:hover {
+    background: #1e87e5;
+}
+
+#multiply-btn {
+    background: #FFC107;
+}
+
+#multiply-btn:hover {
+    background: #ffa000;
+}
+
+#reset-btn {
+    background: #9E9E9E;
+}
+
+#reset-btn:hover {
+    background: #757575;
+}
+
+#sum-el {
+    margin-top: 20px;
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
+}
